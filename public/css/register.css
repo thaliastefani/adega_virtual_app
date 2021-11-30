@@ -1,0 +1,213 @@
+/* Login */
+html {
+  background-image: url(/images/svg_login.svg), linear-gradient(180deg, #C06172 0%, #F7C5D6 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom, center;
+}
+
+div.register-area {
+  width: 625px;
+  height: 832px;
+  margin-left: 35%;
+  margin-top: 5%;
+
+  /* info/navbar */
+  background: rgba(254, 252, 252, 0.8);
+  box-shadow: 0px 4px 4px rgba(172, 115, 139, 0.83);
+}
+
+input.register-area-email {
+  width: 492px;
+  height: 57px;
+  margin-top: 40%;
+  margin-left: 10%;
+
+  font-size: 24px;
+  background: rgba(217, 208, 211, 0.5);
+  border-radius: 24px;
+  border: none;
+}
+
+label.register-area-email {
+  position: absolute;
+  width: 52px;
+  height: 26px;
+  left: 40%;
+  top: 30%;
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  color: #272627;
+}
+
+input.register-area-password {
+  width: 492px;
+  height: 57px;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 24px;
+  background: rgba(217, 208, 211, 0.5);
+  border-radius: 24px;
+  border: none;
+}
+
+label.register-area-password {
+  position: absolute;
+  width: 52px;
+  height: 26px;
+  left: 40%;
+  top: 42%;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  color: #272627;
+}
+
+input.register-area-name {
+  width: 244px;
+  height: 57px;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 24px;
+  background: rgba(217, 208, 211, 0.5);
+  border-radius: 24px;
+  border: none;
+}
+
+label.register-area-name {
+  position: absolute;
+  /* width: 72px; */
+  /* height: 26px; */
+  left: 40%;
+  top: 55%;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  color: #272627;
+}
+
+input.register-area-passwd-confirmation {
+  width: 244px;
+  height: 57px;
+  margin-top: 10%;
+  font-size: 24px;
+  background: rgba(217, 208, 211, 0.5);
+  border-radius: 24px;
+  border: none;
+}
+
+label.register-area-passwd-confirmation {
+  position: absolute;
+  /* width: 72px; */
+  /* height: 26px; */
+  top: 55%;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  color: #272627;
+}
+
+input.register-area-birthdate {
+  width: 492px;
+  height: 57px;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 24px;
+  background: rgba(217, 208, 211, 0.5);
+  border-radius: 24px;
+  border: none;
+}
+
+label.register-area-birthdate {
+  position: absolute;
+  /* width: 204px; */
+  /* height: 26px; */
+  left: 40%;
+  top: 66%;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  color: #272627;
+}
+
+
+input[type=submit] {
+  background: linear-gradient(180deg, #DD2D62 0%, #622038 100%);
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-register-area {
+  position: absolute;
+  width: 287px;
+  height: 52px;
+  left: 44%;
+  top: 78%;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+
+p.cancelar {
+  position: absolute;
+  left: 49%;
+  top: 81%;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #797475;
+}
+
+p.register-titulo {
+  position: absolute;
+  left: 41%;
+  top: 12%;
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 61px;
+
+  color: #622038;
+}
+
+p.register {
+  position: absolute;
+  width: 288px;
+  height: 54px;
+  left: 45%;
+  top: 18%;
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 54px;
+
+  color: #000000;
+}
+
+.invalid-feedback {
+  color: #ff0000;
+}

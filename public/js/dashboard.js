@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./resources/js/dashboard.js":
+/*!***********************************!*\
+  !*** ./resources/js/dashboard.js ***!
+  \***********************************/
+/***/ (() => {
+
+eval("document.addEventListener(\"DOMContentLoaded\", function (event) {\n  var showNavbar = function showNavbar(toggleId, navId, bodyId, headerId) {\n    var toggle = document.getElementById(toggleId),\n        nav = document.getElementById(navId),\n        bodypd = document.getElementById(bodyId),\n        headerpd = document.getElementById(headerId); // Validate that all variables exist\n\n    if (toggle && nav && bodypd && headerpd) {\n      toggle.addEventListener('click', function () {\n        // show navbar\n        nav.classList.toggle('show'); // change icon\n\n        toggle.classList.toggle('bx-x'); // add padding to body\n\n        bodypd.classList.toggle('body-pd'); // add padding to header\n\n        headerpd.classList.toggle('body-pd');\n      });\n    }\n  };\n\n  showNavbar('nav-bar', 'body-pd', 'header');\n  /*===== LINK ACTIVE =====*/\n\n  var linkColor = document.querySelectorAll('.nav_link');\n\n  function colorLink() {\n    if (linkColor) {\n      linkColor.forEach(function (l) {\n        return l.classList.remove('active');\n      });\n      this.classList.add('active');\n    }\n  }\n\n  linkColor.forEach(function (l) {\n    return l.addEventListener('click', colorLink);\n  }); // Your code to run since DOM is loaded and ready\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvZGFzaGJvYXJkLmpzPzg3MmQiXSwibmFtZXMiOlsiZG9jdW1lbnQiLCJhZGRFdmVudExpc3RlbmVyIiwiZXZlbnQiLCJzaG93TmF2YmFyIiwidG9nZ2xlSWQiLCJuYXZJZCIsImJvZHlJZCIsImhlYWRlcklkIiwidG9nZ2xlIiwiZ2V0RWxlbWVudEJ5SWQiLCJuYXYiLCJib2R5cGQiLCJoZWFkZXJwZCIsImNsYXNzTGlzdCIsImxpbmtDb2xvciIsInF1ZXJ5U2VsZWN0b3JBbGwiLCJjb2xvckxpbmsiLCJmb3JFYWNoIiwibCIsInJlbW92ZSIsImFkZCJdLCJtYXBwaW5ncyI6IkFBQUFBLFFBQVEsQ0FBQ0MsZ0JBQVQsQ0FBMEIsa0JBQTFCLEVBQThDLFVBQVNDLEtBQVQsRUFBZ0I7QUFFNUQsTUFBTUMsVUFBVSxHQUFHLFNBQWJBLFVBQWEsQ0FBQ0MsUUFBRCxFQUFXQyxLQUFYLEVBQWtCQyxNQUFsQixFQUEwQkMsUUFBMUIsRUFBc0M7QUFDekQsUUFBTUMsTUFBTSxHQUFHUixRQUFRLENBQUNTLGNBQVQsQ0FBd0JMLFFBQXhCLENBQWY7QUFBQSxRQUNBTSxHQUFHLEdBQUdWLFFBQVEsQ0FBQ1MsY0FBVCxDQUF3QkosS0FBeEIsQ0FETjtBQUFBLFFBRUFNLE1BQU0sR0FBR1gsUUFBUSxDQUFDUyxjQUFULENBQXdCSCxNQUF4QixDQUZUO0FBQUEsUUFHQU0sUUFBUSxHQUFHWixRQUFRLENBQUNTLGNBQVQsQ0FBd0JGLFFBQXhCLENBSFgsQ0FEeUQsQ0FNekQ7O0FBQ0EsUUFBR0MsTUFBTSxJQUFJRSxHQUFWLElBQWlCQyxNQUFqQixJQUEyQkMsUUFBOUIsRUFBdUM7QUFDdkNKLE1BQUFBLE1BQU0sQ0FBQ1AsZ0JBQVAsQ0FBd0IsT0FBeEIsRUFBaUMsWUFBSTtBQUNyQztBQUNBUyxRQUFBQSxHQUFHLENBQUNHLFNBQUosQ0FBY0wsTUFBZCxDQUFxQixNQUFyQixFQUZxQyxDQUdyQzs7QUFDQUEsUUFBQUEsTUFBTSxDQUFDSyxTQUFQLENBQWlCTCxNQUFqQixDQUF3QixNQUF4QixFQUpxQyxDQUtyQzs7QUFDQUcsUUFBQUEsTUFBTSxDQUFDRSxTQUFQLENBQWlCTCxNQUFqQixDQUF3QixTQUF4QixFQU5xQyxDQU9yQzs7QUFDQUksUUFBQUEsUUFBUSxDQUFDQyxTQUFULENBQW1CTCxNQUFuQixDQUEwQixTQUExQjtBQUNDLE9BVEQ7QUFVQztBQUNBLEdBbkJEOztBQXFCQUwsRUFBQUEsVUFBVSxDQUFDLFNBQUQsRUFBVyxTQUFYLEVBQXFCLFFBQXJCLENBQVY7QUFFQTs7QUFDQSxNQUFNVyxTQUFTLEdBQUdkLFFBQVEsQ0FBQ2UsZ0JBQVQsQ0FBMEIsV0FBMUIsQ0FBbEI7O0FBRUEsV0FBU0MsU0FBVCxHQUFvQjtBQUNwQixRQUFHRixTQUFILEVBQWE7QUFDYkEsTUFBQUEsU0FBUyxDQUFDRyxPQUFWLENBQWtCLFVBQUFDLENBQUM7QUFBQSxlQUFHQSxDQUFDLENBQUNMLFNBQUYsQ0FBWU0sTUFBWixDQUFtQixRQUFuQixDQUFIO0FBQUEsT0FBbkI7QUFDQSxXQUFLTixTQUFMLENBQWVPLEdBQWYsQ0FBbUIsUUFBbkI7QUFDQztBQUNBOztBQUNETixFQUFBQSxTQUFTLENBQUNHLE9BQVYsQ0FBa0IsVUFBQUMsQ0FBQztBQUFBLFdBQUdBLENBQUMsQ0FBQ2pCLGdCQUFGLENBQW1CLE9BQW5CLEVBQTRCZSxTQUE1QixDQUFIO0FBQUEsR0FBbkIsRUFsQzRELENBb0M1RDtBQUNDLENBckNIIiwic291cmNlc0NvbnRlbnQiOlsiZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcihcIkRPTUNvbnRlbnRMb2FkZWRcIiwgZnVuY3Rpb24oZXZlbnQpIHtcblxuICBjb25zdCBzaG93TmF2YmFyID0gKHRvZ2dsZUlkLCBuYXZJZCwgYm9keUlkLCBoZWFkZXJJZCkgPT57XG4gIGNvbnN0IHRvZ2dsZSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKHRvZ2dsZUlkKSxcbiAgbmF2ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQobmF2SWQpLFxuICBib2R5cGQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChib2R5SWQpLFxuICBoZWFkZXJwZCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGhlYWRlcklkKVxuXG4gIC8vIFZhbGlkYXRlIHRoYXQgYWxsIHZhcmlhYmxlcyBleGlzdFxuICBpZih0b2dnbGUgJiYgbmF2ICYmIGJvZHlwZCAmJiBoZWFkZXJwZCl7XG4gIHRvZ2dsZS5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsICgpPT57XG4gIC8vIHNob3cgbmF2YmFyXG4gIG5hdi5jbGFzc0xpc3QudG9nZ2xlKCdzaG93JylcbiAgLy8gY2hhbmdlIGljb25cbiAgdG9nZ2xlLmNsYXNzTGlzdC50b2dnbGUoJ2J4LXgnKVxuICAvLyBhZGQgcGFkZGluZyB0byBib2R5XG4gIGJvZHlwZC5jbGFzc0xpc3QudG9nZ2xlKCdib2R5LXBkJylcbiAgLy8gYWRkIHBhZGRpbmcgdG8gaGVhZGVyXG4gIGhlYWRlcnBkLmNsYXNzTGlzdC50b2dnbGUoJ2JvZHktcGQnKVxuICB9KVxuICB9XG4gIH1cblxuICBzaG93TmF2YmFyKCduYXYtYmFyJywnYm9keS1wZCcsJ2hlYWRlcicpXG5cbiAgLyo9PT09PSBMSU5LIEFDVElWRSA9PT09PSovXG4gIGNvbnN0IGxpbmtDb2xvciA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5uYXZfbGluaycpXG5cbiAgZnVuY3Rpb24gY29sb3JMaW5rKCl7XG4gIGlmKGxpbmtDb2xvcil7XG4gIGxpbmtDb2xvci5mb3JFYWNoKGw9PiBsLmNsYXNzTGlzdC5yZW1vdmUoJ2FjdGl2ZScpKVxuICB0aGlzLmNsYXNzTGlzdC5hZGQoJ2FjdGl2ZScpXG4gIH1cbiAgfVxuICBsaW5rQ29sb3IuZm9yRWFjaChsPT4gbC5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsIGNvbG9yTGluaykpXG5cbiAgLy8gWW91ciBjb2RlIHRvIHJ1biBzaW5jZSBET00gaXMgbG9hZGVkIGFuZCByZWFkeVxuICB9KTsiXSwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL2Rhc2hib2FyZC5qcy5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/dashboard.js\n");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./resources/js/dashboard.js"]();
+/******/ 	
+/******/ })()
+;

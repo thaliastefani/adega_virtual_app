@@ -1,0 +1,126 @@
+/* Login */
+html {
+  background-image: url(/images/svg_login.svg), linear-gradient(180deg, #C06172 0%, #F7C5D6 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom, center;
+}
+
+div.login-area {
+  width: 625px;
+  height: 757px;
+  margin-left: 35%;
+  margin-top: 5%;
+
+  /* info/navbar */
+  background: rgba(254, 252, 252, 0.8);
+  box-shadow: 0px 4px 4px rgba(172, 115, 139, 0.83);
+}
+
+input.login-area-email {
+  width: 492px;
+  height: 57px;
+  margin-top: 40%;
+  margin-left: 10%;
+
+  font-size: 24px;
+  background: rgba(217, 208, 211, 0.5);
+  border-radius: 24px;
+  border: none;
+}
+
+label.login-area-email {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  color: #272627;
+}
+
+input.login-area-password {
+  width: 492px;
+  height: 57px;
+  margin-top: 15%;
+  margin-left: 10%;
+
+  font-size: 24px;
+  background: rgba(217, 208, 211, 0.5);
+  border-radius: 24px;
+  border: none;
+}
+
+label.login-area-password {
+  position: absolute;
+  width: 52px;
+  height: 26px;
+  left: 40%;
+  top: 46%;
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  color: #272627;
+}
+
+input[type=submit] {
+  background: linear-gradient(180deg, #DD2D62 0%, #622038 100%);
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-login-area {
+  position: absolute;
+  width: 287px;
+  height: 52px;
+  left: 44%;
+  top: 60%;
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #FFFFFF;
+}
+
+p.criar-conta {
+  position: absolute;
+  left: 48%;
+  top: 64%;
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-decoration-line: underline;
+
+  color: #797475
+}
+
+p.login-titulo {
+  position: absolute;
+  left: 41%;
+  top: 12%;
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 61px;
+
+  color: #622038;
+}
+
+.invalid-feedback {
+  color: #ff0000;
+}
